@@ -6,8 +6,6 @@ on:
       - main
   schedule:
     - cron: 0 1 * * *
-  watch:
-    types: started
 
 jobs:
   daily_check_in:
